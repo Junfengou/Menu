@@ -29,6 +29,7 @@ function App() {
     return (
         <>
             <h1>People table updated!</h1>
+            <p>Yep it is working!</p>
             {persons && persons.length > 0 &&
                 <table style={{ borderCollapse: "collapse" }}>
                     <thead>
