@@ -14,6 +14,7 @@ namespace Menu.Controllers
 			List<Person> Persons = new List<Person>();
 			Persons.Add(new Person { Name = "Paddy", FavouriteColour = "Blue" });
 			Persons.Add(new Person { Name = "Frank", FavouriteColour = "Brown" });
+			Persons.Add(new Person { Name = "Jack", FavouriteColour = "Orange" });
 
 			return Json(Persons, JsonRequestBehavior.AllowGet);
 		}

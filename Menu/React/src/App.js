@@ -21,7 +21,6 @@ function App() {
         setPersons(res.data);
     }
 
-    console.log("yo")
     
     useEffect(() => {
         getData();
@@ -29,7 +28,7 @@ function App() {
 
     return (
         <>
-            <h1>People that we know</h1>
+            <h1>People table updated!</h1>
             {persons && persons.length > 0 &&
                 <table style={{ borderCollapse: "collapse" }}>
                     <thead>
